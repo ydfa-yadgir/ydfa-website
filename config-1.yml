@@ -1,0 +1,24 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "team"
+    label: "Team"
+    files:
+      - name: "team"
+        label: "Office Bearers & Members"
+        file: "team.json"
+        fields:
+          - label: "Office Bearers"
+            name: "officeBearers"
+            widget: "list"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Role", name: "role", widget: "string" }
+          - label: "Committee Members"
+            name: "members"
+            widget: "list"

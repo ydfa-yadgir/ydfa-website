@@ -1,0 +1,11 @@
+{
+  "officeBearers": [
+    { "name": "Nitesh Chawan", "role": "President" },
+    { "name": "Divya Bharti", "role": "Vice President" },
+    { "name": "Mahesh Shali", "role": "General Secretary" },
+    { "name": "Chaitra", "role": "Treasurer" }
+  ],
+  "members": [
+    "Ajay", "Karan", "Rohit", "Anil", "Sachin", "Bharat", "Prabhu Kumar", "Karan C", "Raj Madan Gopal Nayak"
+  ]
+}
